@@ -309,7 +309,7 @@ export abstract class JettonMinterContractBase<T extends JettonMinterOpcodesType
                         dc.loadAddress();
                         let totalSupply = dc.loadCoins();
                         let myAddress = this.address;
-                        let content = `https://lp.terminus.finance/0:${myAddress.hash.toString('hex')}.json`;
+                        let content = `https://lp.terminus.pw/0:${myAddress.hash.toString('hex')}.json`;
                         res = {
                             totalSupply: totalSupply,
                             canIncSupply: true,
